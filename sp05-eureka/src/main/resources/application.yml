@@ -1,0 +1,21 @@
+spring:
+  application:
+     name: eureka-server
+
+server:
+  port: 2001     #默认端口8761
+
+eureka:
+  server:
+    #自我保护模式  默认模式开启   开发期间可以关闭保护模式
+    #生产环境下应该开启
+    enable-self-preservation: false
+  instance:
+    #主机名  eureka集群种使用hostname来区分多态服务器
+    hostname: eureka1
+  client:
+    #集群中多台服务器之间要互选注册互相拉取
+    #单台服务器部注册也部拉取
+    register-with-eureka: false
+    fetch-registry: false
+

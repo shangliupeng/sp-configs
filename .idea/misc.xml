@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.beans.factory.annotation.Autowired" />
+    </list>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../sp01-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/../sp02-itemservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp03-userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp04-ordeservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp05-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/sp06-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/sp07-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/sp08-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/sp09-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/sp10-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/../configs/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
